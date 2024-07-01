@@ -1,9 +1,9 @@
 {
-    "name": "Your Company",
+    "name": "AIMS",
     "logo": {
         "light": "/logo/light.svg",
         "dark": "/logo/dark.svg",
-        "href": "https://dalpha.so/ko"
+        "href": "https://aims.lotte.net"
     },
     "favicon": "/favicon.svg",
     "colors": {
@@ -15,13 +15,76 @@
         {
             "group": "Getting Started",
             "pages": [
-                "main"
+                "mdx/gettingstarted/quickstart",
+                "mdx/gettingstarted/home",
+                "mdx/gettingstarted/icon",
+                "mdx/gettingstarted/md"
             ]
         },
         {
-            "group": "Getting Started",
+            "group": "Project Setup",
             "pages": [
-                "main"
+                "mdx/project/project"
+            ]
+        },
+        {
+            "group": "Smart Docs",
+            "pages": [
+                "mdx/texteditor/main",
+                {
+                    "group" : "AI 기능 몰아보기",
+                    "pages" : ["mdx/texteditor/func1", "mdx/texteditor/func2"]
+                }
+            ]
+        },
+        {
+            "group": "Smart Notes",
+            "pages": [
+                "mdx/texteditor/main",
+                {
+                    "group" : "AI 기능 몰아보기",
+                    "pages" : ["mdx/texteditor/func1", "mdx/texteditor/func2"]
+                }
+            ]
+        },
+        {
+            "group": "Smart Ad",
+            "pages": [
+                "mdx/imageeditor/main",
+                {
+                    "group" : "AI 기능 몰아보기",
+                    "pages" : ["mdx/imageeditor/func1", "mdx/imageeditor/func2"]
+                }
+            ]
+        },
+        {
+            "group": "Smart Ask",
+            "pages": [
+                "mdx/smartask/main",
+                {
+                    "group" : "AI 기능 몰아보기",
+                    "pages" : ["mdx/smartask/func1", "mdx/smartask/func2"]
+                }
+            ]
+        },
+        {
+            "group": "Smart Search",
+            "pages": [
+                "mdx/smartask/main",
+                {
+                    "group" : "AI 기능 몰아보기",
+                    "pages" : ["mdx/smartask/func1", "mdx/smartask/func2"]
+                }
+            ]
+        },
+        {
+            "group": "Smart Cloud",
+            "pages": [
+                "mdx/smartcloud/main",
+                {
+                    "group" : "AI 기능 몰아보기",
+                    "pages" : ["mdx/smartcloud/func1", "mdx/smartcloud/func2"]
+                }
             ]
         }
     ]
