@@ -1,89 +1,71 @@
 {
     "name": "AIMS",
     "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg",
+        "light": "/logo/Logo.svg",
+        "dark": "/logo/Logo.svg",
         "href": "https://aims.lotte.net"
     },
-    "favicon": "/favicon.svg",
+    "favicon": "/logo/Symbol.svg",
     "colors": {
-        "primary": "#2AB673",
-        "light": "#55D799",
-        "dark": "#117866"
+        "primary": "#A799FA",
+        "light": "#C8BFFF",
+        "dark": "#8E7DF5"
     },
     "navigation": [
         {
             "group": "Getting Started",
             "pages": [
-                "mdx/gettingstarted/quickstart",
-                "mdx/gettingstarted/home",
-                "mdx/gettingstarted/icon",
-                "mdx/gettingstarted/md"
+                "docs/gettingstarted/quickstart",
+                "docs/gettingstarted/home",
+                "docs/gettingstarted/icon",
+                "docs/gettingstarted/md"
             ]
         },
         {
             "group": "Project Setup",
             "pages": [
-                "mdx/project/project"
+                "docs/project/overview",
+                "docs/project/project",
+                "docs/project/collections"
             ]
         },
         {
-            "group": "Smart Docs",
+            "group": "Smart Cloud",
             "pages": [
-                "mdx/texteditor/main",
+                "docs/smartcloud/main",
                 {
                     "group" : "AI 기능 몰아보기",
-                    "pages" : ["mdx/texteditor/func1", "mdx/texteditor/func2"]
+                    "pages" : ["docs/smartcloud/func1", "docs/smartcloud/func2"]
                 }
             ]
         },
         {
             "group": "Smart Notes",
             "pages": [
-                "mdx/texteditor/main",
+                "docs/texteditor/main",
                 {
                     "group" : "AI 기능 몰아보기",
-                    "pages" : ["mdx/texteditor/func1", "mdx/texteditor/func2"]
+                    "pages" : ["docs/texteditor/func1", "docs/texteditor/func2"]
                 }
             ]
         },
         {
             "group": "Smart Ad",
             "pages": [
-                "mdx/imageeditor/main",
+                "docs/imageeditor/main",
                 {
                     "group" : "AI 기능 몰아보기",
-                    "pages" : ["mdx/imageeditor/func1", "mdx/imageeditor/func2"]
-                }
-            ]
-        },
-        {
-            "group": "Smart Ask",
-            "pages": [
-                "mdx/smartask/main",
-                {
-                    "group" : "AI 기능 몰아보기",
-                    "pages" : ["mdx/smartask/func1", "mdx/smartask/func2"]
+                    "pages" : ["docs/imageeditor/func1", "docs/imageeditor/func2"]
                 }
             ]
         },
         {
             "group": "Smart Search",
             "pages": [
-                "mdx/smartask/main",
+                "docs/smartask/main",
                 {
                     "group" : "AI 기능 몰아보기",
-                    "pages" : ["mdx/smartask/func1", "mdx/smartask/func2"]
-                }
-            ]
-        },
-        {
-            "group": "Smart Cloud",
-            "pages": [
-                "mdx/smartcloud/main",
-                {
-                    "group" : "AI 기능 몰아보기",
-                    "pages" : ["mdx/smartcloud/func1", "mdx/smartcloud/func2"]
+                    "pages" : ["docs/smartask/func1", "docs/smartask/func2"]
                 }
             ]
         }
