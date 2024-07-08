@@ -3,7 +3,7 @@
     "logo": {
         "light": "/logo/Logo.svg",
         "dark": "/logo/Logo.svg",
-        "href": "https://aims.lotte.net"
+        "href": "https://dalpha.mintlify.app/docs/gettingstarted/quickstart"
     },
     "favicon": "/logo/Symbol.svg",
     "colors": {
@@ -16,9 +16,7 @@
             "group": "Getting Started",
             "pages": [
                 "docs/gettingstarted/quickstart",
-                "docs/gettingstarted/home",
-                "docs/gettingstarted/icon",
-                "docs/gettingstarted/md"
+                "docs/gettingstarted/home"
             ]
         },
         {
