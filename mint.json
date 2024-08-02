@@ -16,7 +16,9 @@
             "group": "Getting Started",
             "pages": [
                 "docs/gettingstarted/quickstart",
-                "docs/gettingstarted/home"
+                "docs/gettingstarted/home",
+                "docs/gettingstarted/icon",
+                "docs/gettingstarted/md"
             ]
         },
         {
@@ -28,42 +30,54 @@
             ]
         },
         {
-            "group": "Smart Cloud",
+            "group": "Files",
             "pages": [
-                "docs/smartcloud/main",
+                "docs/files/main",
                 {
-                    "group" : "AI 기능 몰아보기",
-                    "pages" : ["docs/smartcloud/func1", "docs/smartcloud/func2"]
+                    "group": "AI 기능 몰아보기",
+                    "pages": [
+                        "docs/files/func1",
+                        "docs/files/func2"
+                    ]
                 }
             ]
         },
         {
-            "group": "Smart Notes",
+            "group": "Data Researcher",
             "pages": [
-                "docs/texteditor/main",
+                "docs/dataresearcher/main",
                 {
-                    "group" : "AI 기능 몰아보기",
-                    "pages" : ["docs/texteditor/func1", "docs/texteditor/func2"]
+                    "group": "AI 기능 몰아보기",
+                    "pages": [
+                        "docs/dataresearcher/func1",
+                        "docs/dataresearcher/func2"
+                    ]
                 }
             ]
         },
         {
-            "group": "Smart Ad",
+            "group": "Strategy Advisor",
             "pages": [
-                "docs/imageeditor/main",
+                "docs/strategyadvisor/main",
                 {
-                    "group" : "AI 기능 몰아보기",
-                    "pages" : ["docs/imageeditor/func1", "docs/imageeditor/func2"]
+                    "group": "AI 기능 몰아보기",
+                    "pages": [
+                        "docs/strategyadvisor/func1",
+                        "docs/strategyadvisor/func2"
+                    ]
                 }
             ]
         },
         {
-            "group": "Smart Search",
+            "group": "Content Creator",
             "pages": [
-                "docs/smartask/main",
+                "docs/contentcreator/main",
                 {
-                    "group" : "AI 기능 몰아보기",
-                    "pages" : ["docs/smartask/func1", "docs/smartask/func2"]
+                    "group": "AI 기능 몰아보기",
+                    "pages": [
+                        "docs/contentcreator/func1",
+                        "docs/contentcreator/func2"
+                    ]
                 }
             ]
         }
